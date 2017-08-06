@@ -1,7 +1,7 @@
 interface Memory {
   uuid: number;
   log: any;
-  P: Profiler;
+  Profiler: Profiler;
 }
 
 // add objects to `global` here
@@ -10,7 +10,7 @@ interface Memory {
 declare namespace NodeJS {
   interface Global {
     log: any;
-    P: Profiler;
+    Profiler: Profiler;
   }
 }
 
