@@ -47,8 +47,11 @@ For testing **NOTE** _Testing is currently a work-in-progress_:
 
 To get started, [download a zipped copy](https://github.com/screepers/screeps-typescript-starter/archive/master.zip) of the starter kit and extract it somewhere, or clone this repo.
 
+Note zipped copies don't contain the submodules.  
+To get the submodule, you need to clone --recursive or do 
+
 ```bash
-$ git clone --recursive git@github.com:screepers/screeps-typescript-profiler.git
+$ git submodule update --init
 ```
 
 ### Install all required modules!
